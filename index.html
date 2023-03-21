@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Open+Sans:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./dist/main.css" />
+  <link rel="icon" href="./assets/images/logocoffee.png" />
+  <script src="https://kit.fontawesome.com/b68514666a.js" crossorigin="anonymous"></script>
+  <script src="./assets/js/script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-row">
+      <div>
+        <a href="./index.html"><img src="./assets/images/lcc_logosm.jpg" alt="lcc logo" /></a>
+      </div>
+      <div class="cart">
+        <a href="./cart.html"><img class="cart-image" src="./assets/images/cart.png" alt="cart" /></a>
+      </div>
+      <button type="button" class="nav-toggler">
+        <span></span>
+      </button>
+      <nav class="nav">
+        <ul>
+          <li><a href="#" class="active">home</a></li>
+          <li><a href="./coffeetea.html">coffee and tea</a></li>
+          <li><a href="./breakfastlunch.html">breakfast and lunch</a></li>
+          <li><a href="./cabinetfood.html">cabinet food</a></li>
+          <li><a href="./colddrinks.html">drinks</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="search-container">
+      <input class="search" type="text" placeholder="Search" />
+    </div>
+  </header>
+
+  <main>
+    <section class="roaster-area">
+      <div class="title">
+        <h1>welcome to lyttelton coffee company</h1>
+
+        <h2>the best little cafe in town</h2>
+      </div>
+
+      <div class="main-button-container">
+        <a href="./main-menu.html">
+          <button class="main-button">view our menu</button>
+        </a>
+      </div>
+    </section>
+
+    <div>
+      <p class="intro">
+        Situated in the heart of the quaint portside town of Lyttelton and set
+        amongst the historic buildings and the landing port for the four
+        settler ships that arrived in New Zealand in 1850, we strive to
+        present a wholy unique Cafe dining experience for our guests.
+      </p>
+    </div>
+
+    <div class="grid">
+      <section class="grid__section1">
+        <h1>best views in port</h1>
+        <figure>
+          <img class="image" src="./assets/images/lcc_port.jpg" alt="lyttelton port" />
+        </figure>
+        <p>
+          We have the best views of the hustle and bustle of the Lyttelton
+          port on offer, or you can simply relax and view the beauty of the
+          surrounding Banks Peninsula.
+        </p>
+      </section>
+
+      <section class="grid__section2">
+        <h1>everyday specials</h1>
+        <figure>
+          <img class="image" src="./assets/images/seafood_dish.jpg" alt="seafood dish" />
+        </figure>
+        <p>
+          We have a wide variety of food to enjoy with daily specials right
+          from the kitchen, made by the best little cafe chef in town.
+        </p>
+      </section>
+
+      <section class="grid__section3">
+        <h1>entertainment on tap</h1>
+        <figure>
+          <img class="image" src="./assets/images/entertainment.jpg" alt="dj night" />
+        </figure>
+        <p>
+          With music gigs, life drawings, artwork, spinclasses...and oh have
+          we mentioned the best views?...we pride ourselves on being one of
+          the most popular destinations in port.
+        </p>
+      </section>
+
+      <section class="grid__section4">
+        <h1>we roast our own coffee</h1>
+        <figure>
+          <img class="image" src="./assets/images/lcc_roasting.jpg" alt="picture of coffee roaster" />
+        </figure>
+        <p>
+          The roaster has moved topside and sits proudly in the middle of the
+          cafe. Roasting most nights of the week, Lyttelton Coffee Co supplies
+          around 30 wholesale clients in the Canterbury region
+        </p>
+      </section>
+
+      <section class="grid__section5">
+        <h6>download our app</h6>
+        <p class="ptext-change">
+          download our app and experiance a more efficient ordering system
+        </p>
+        <!-- App Buttons found in buttons.scss -->
+        <div class="apps">
+          <a href="https://www.apple.com/nz/app-store/"><img class="appleapp" src="./assets/images/app_store.png"
+              alt="download app by apple store" /></a>
+          <a href="https://play.google.com/store/apps"><img class="googleapp" src="./assets/images/google_play.png"
+              alt="download app by google play" /></a>
+        </div>
+      </section>
+
+      <section class="grid__section6">
+        <h6>subscribe</h6>
+        <p class="ptext-change">
+          subscribe to receive newsletters, events and specials
+        </p>
+
+        <div class="subscribe-container">
+          <form action="#" method="post">
+            <fieldset>
+              <div class="flex-input">
+                <label for="name">name:</label>
+                <input type="name" name="your_name" placeholder="enter your name" required />
+              </div>
+              <div class="flex-input">
+                <label for="email">email:</label>
+                <input type="email" name="email_address" placeholder="email address" required />
+              </div>
+              <div>
+                <button class="main-button" type="submit">Sign Up</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div>
+      <h4>lyttelton coffee company</h4>
+    </div>
+
+    <div>
+      <h5>29 london street, lyttelton, christchurch 8082</h5>
+    </div>
+
+    <div>
+      <a href="mailto:lytteltoncoffeecomapny@xtra.co.nz">
+        <h5 class="no_caps">lytteltoncoffeecompany@xtra.co.nz</h5>
+      </a>
+    </div>
+
+    <div>
+      <ul class="socials">
+        <li>
+          <a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square"></i></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>&copy; 2022 lyttelton coffee company. all rights reserved</h3>
+    </div>
+  </footer>
+</body>
+
+</html>

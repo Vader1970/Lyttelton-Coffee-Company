@@ -1,0 +1,18 @@
+@use "./functions" as f;
+
+//Sass Map Breakpoints Up - mobile small (300) mobile (medium) set to 700px, tablet (large) 900px, desktop (xlarge)1440px
+$breakpoints-up: (
+  "small": f.em(340),
+  "medium": f.em(700),
+  "xmedium": f.em(750),
+  "mediumlarge": f.em(965),
+  "slarge": f.em(1024),
+  "large": f.em(1200),
+  "xlarge": f.em(1440),
+);
+
+@mixin breakpoint($size) {
+  @media (min-width: map-get($breakpoints-up, $size)) {
+    @content;
+  }
+}

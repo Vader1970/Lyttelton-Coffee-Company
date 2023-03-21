@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>pay at counter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Open+Sans:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./dist/main.css" />
+  <link rel="icon" href="./assets/images/logocoffee.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <script src="https://kit.fontawesome.com/b68514666a.js" crossorigin="anonymous"></script>
+  <script src="./assets/js/script.js" defer></script>
+  <script src="./assets/js/modal.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-row">
+      <div>
+        <a href="./index.html"><img src="./assets/images/lcc_logosm.jpg" alt="lcc logo" /></a>
+      </div>
+      <div class="cart">
+        <a href="./cart.html"><img class="cart-image" src="./assets/images/cart.png" alt="cart" /></a>
+      </div>
+      <button type="button" class="nav-toggler">
+        <span></span>
+      </button>
+      <nav class="nav">
+        <ul>
+          <li><a href="./index.html">home</a></li>
+          <li><a href="./coffeetea.html">coffee and tea</a></li>
+          <li><a href="./breakfastlunch.html">breakfast and lunch</a></li>
+          <li><a href="./cabinetfood.html">cabinet food</a></li>
+          <li><a href="./colddrinks.html">drinks</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="search-container">
+      <input class="search" type="text" placeholder="Search" />
+    </div>
+  </header>
+
+  <main>
+    <section class="sub-header">
+      <h1>pay at counter</h1>
+    </section>
+
+    <p class="payment-heading">
+      when you are ready to pay, please give your table number to the front
+      counter so to process your payment faster!
+    </p>
+
+    <h2>your table number</h2>
+
+    <div class="table-number-wrapper">
+      <input class="tablebox-alignment" type="text" name="table-number" placeholder="11" autocomplete="off" />
+    </div>
+
+    <section class="sub-header">
+      <h1>please place feedback</h1>
+    </section>
+
+    <p class="payment-heading">
+      please remember to give us a star rating and place your feedback and
+      suggestions below. it tells us how we're doing and what we need to do to
+      improve your dining experiance with us!
+    </p>
+
+    <div class="star-rating">
+      <button class="star">&#9734;</button>
+      <button class="star">&#9734;</button>
+      <button class="star">&#9734;</button>
+      <button class="star">&#9734;</button>
+      <button class="star">&#9734;</button>
+    </div>
+
+    <form class="text-box-wrapper">
+      <textarea>please place feedback and suggestions here!</textarea>
+    </form>
+
+    <div class="button-wrapper">
+      <div>
+        <a href="#">
+          <button class="open-button">submit</button>
+        </a>
+      </div>
+    </div>
+
+    <dialog class="modal" id="modal">
+      <h1>feedback submitted</h1>
+      <img src="./assets/images/tick.png" alt="tick" />
+      <h1>thank you!</h1>
+      <a href="./index.html">
+        <button class="close-button">OK</button>
+      </a>
+    </dialog>
+  </main>
+
+  <footer>
+    <div>
+      <h4>lyttelton coffee company</h4>
+    </div>
+
+    <div>
+      <h5>29 london street, lyttelton, christchurch 8082</h5>
+    </div>
+
+    <div>
+      <h5 class="no_caps">lyttelton coffee company@xtra.co.nz</h5>
+    </div>
+
+    <div>
+      <ul class="socials">
+        <li>
+          <a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square"></i></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>&copy; 2022 lyttelton coffee company. all rights reserved</h3>
+    </div>
+  </footer>
+</body>
+
+</html>

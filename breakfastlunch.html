@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>breakfast and lunch</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Open+Sans:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./dist/main.css" />
+  <link rel="icon" href="./assets/images/logocoffee.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <script src="https://kit.fontawesome.com/b68514666a.js" crossorigin="anonymous"></script>
+  <script src="./assets/js/script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-row">
+      <div>
+        <a href="./index.html"><img src="./assets/images/lcc_logosm.jpg" alt="lcc logo" /></a>
+      </div>
+      <div class="cart">
+        <a href="./cart.html"><img class="cart-image" src="./assets/images/cart.png" alt="cart" /></a>
+      </div>
+      <button type="button" class="nav-toggler">
+        <span></span>
+      </button>
+      <nav class="nav">
+        <ul>
+          <li><a href="./index.html">home</a></li>
+          <li><a href="./coffeetea.html">coffee and tea</a></li>
+          <li><a href="./breakfastlunch.html" class="active">breakfast and lunch</a></li>
+          <li><a href="./cabinetfood.html">cabinet food</a></li>
+          <li><a href="./colddrinks.html">drinks</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="search-container">
+      <input class="search" type="text" placeholder="Search" />
+    </div>
+  </header>
+
+  <main>
+    <section class="sub-header">
+      <h1>breakfast</h1>
+      <h2>all happiness depends on a leisurely breakfast!</h2>
+    </section>
+
+    <div class="dietary">
+      <div class="dietary-alignment">
+        <img class="dietary-icon" src="./assets/images/gf.png" alt="gluten free icon" />
+        <p class="dietary-icon-text">
+          gluten free
+        </p>
+      </div>
+
+      <div class="dietary-alignment">
+        <img class="dietary-icon" src="./assets/images/v.png" alt="gluten free icon" />
+        <p class="dietary-icon-text">
+          vegetarian
+        </p>
+      </div>
+
+      <div class="dietary-alignment">
+        <img class="dietary-icon" src="./assets/images/df.png" alt="gluten free icon" />
+        <p class="dietary-icon-text">
+          dairy free
+        </p>
+      </div>
+
+      <div class="dietary-alignment">
+        <img class="dietary-icon" src="./assets/images/veg.png" alt="gluten free icon" />
+        <p class="dietary-icon-text">
+          vegan
+        </p>
+      </div>
+
+      <div class="dietary-alignment">
+        <img class="dietary-icon" src="./assets/images/nf.png" alt="gluten free icon" />
+        <p class="dietary-icon-text">
+          nut free
+        </p>
+      </div>
+    </div>
+
+    <section class="menu-container">
+      <div class="menu-items">
+        <div class="nested">
+          <div class="menu-heading">
+            <h1>big breakfast</h1>
+          </div>
+          <div class="menu-price">
+            <h1>$23.00</h1>
+          </div>
+          <div class="menu-image">
+            <figure>
+              <img src="./assets/images/bigbreakfast.png" alt="big breakfast" />
+            </figure>
+          </div>
+          <p class="menu-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum accusamus illum vero id odit eligendi
+            adipisci veniam!
+          </p>
+          <div class="dietary-menu-icon-alignment">
+
+            <img class="dietary-menu-icon" src="./assets/images/gf.png" alt="gluten free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/df.png" alt="dairy free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/nf.png" alt="nut free" />
+
+          </div>
+
+          <div class="menu-button">
+            <button class="cart-button">
+              <span class="add-to-cart">Add to Cart</span>
+              <span class="added">Added</span>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-box"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-items">
+        <div class="nested">
+          <div class="menu-heading">
+            <h1>vegetarian breakfast</h1>
+          </div>
+          <div class="menu-price">
+            <h1>$20.00</h1>
+          </div>
+          <div class="menu-image">
+            <figure>
+              <img src="./assets/images/vegetarian_breakfast.png" alt="vegetarian breakfast" />
+            </figure>
+          </div>
+          <p class="menu-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum accusamus illum vero id odit eligendi
+            adipisci veniam!
+          </p>
+          <div class="dietary-menu-icon-alignment">
+
+            <img class="dietary-menu-icon" src="./assets/images/gf.png" alt="gluten free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/df.png" alt="dairy free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/nf.png" alt="nut free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/v.png" alt="vegetarian" />
+
+          </div>
+
+          <div class="menu-button">
+            <button class="cart-button">
+              <span class="add-to-cart">Add to Cart</span>
+              <span class="added">Added</span>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-box"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-items">
+        <div class="nested">
+          <div class="menu-heading">
+            <h1>vegan breakfast</h1>
+          </div>
+          <div class="menu-price">
+            <h1>$21.00</h1>
+          </div>
+          <div class="menu-image">
+            <figure>
+              <img src="./assets/images/vegan_breakfast.png" alt="vegan breakfast" />
+            </figure>
+          </div>
+          <p class="menu-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum accusamus illum vero id odit eligendi
+            adipisci veniam!
+          </p>
+          <div class="dietary-menu-icon-alignment">
+
+            <img class="dietary-menu-icon" src="./assets/images/gf.png" alt="gluten free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/df.png" alt="dairy free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/nf.png" alt="nut free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/v.png" alt="vegetarian" />
+
+            <img class="dietary-menu-icon" src="./assets/images/veg.png" alt="vegan" />
+
+          </div>
+
+          <div class="menu-button">
+            <button class="cart-button">
+              <span class="add-to-cart">Add to Cart</span>
+              <span class="added">Added</span>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-box"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-items">
+        <div class="nested">
+          <div class="menu-heading">
+            <h1>french toast</h1>
+          </div>
+          <div class="menu-price">
+            <h1>$9.00</h1>
+          </div>
+          <div class="menu-image">
+            <figure>
+              <img src="./assets/images/banana_toast.png" alt="french toast" />
+            </figure>
+          </div>
+          <p class="menu-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum accusamus illum vero id odit eligendi
+            adipisci veniam!
+          </p>
+          <div class="dietary-menu-icon-alignment">
+
+            <img class="dietary-menu-icon" src="./assets/images/gf.png" alt="gluten free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/df.png" alt="dairy free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/nf.png" alt="nut free" />
+
+          </div>
+
+          <div class="menu-button">
+            <button class="cart-button">
+              <span class="add-to-cart">Add to Cart</span>
+              <span class="added">Added</span>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-box"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sub-header">
+      <h1>lunch</h1>
+      <h2>lunch is like, my first real meal of the day!</h2>
+    </section>
+
+    <section class="menu-container">
+      <div class="menu-items">
+        <div class="nested">
+          <div class="menu-heading">
+            <h1>big lunch mix</h1>
+          </div>
+          <div class="menu-price">
+            <h1>$25.00</h1>
+          </div>
+          <div class="menu-image">
+            <figure>
+              <img src="./assets/images/biglunchmix.png" alt="big lunch mix" />
+            </figure>
+          </div>
+          <p class="menu-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum accusamus illum vero id odit eligendi
+            adipisci veniam!
+          </p>
+          <div class="dietary-menu-icon-alignment">
+
+            <img class="dietary-menu-icon" src="./assets/images/gf.png" alt="gluten free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/df.png" alt="dairy free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/nf.png" alt="nut free" />
+
+          </div>
+
+          <div class="menu-button">
+            <button class="cart-button">
+              <span class="add-to-cart">Add to Cart</span>
+              <span class="added">Added</span>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-box"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-items">
+        <div class="nested">
+          <div class="menu-heading">
+            <h1>bBQ Chicken</h1>
+          </div>
+          <div class="menu-price">
+            <h1>$25.00</h1>
+          </div>
+          <div class="menu-image">
+            <figure>
+              <img src="./assets/images/bbq_chicken.png" alt="bbq chicken" />
+            </figure>
+          </div>
+          <p class="menu-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum accusamus illum vero id odit eligendi
+            adipisci veniam!
+          </p>
+          <div class="dietary-menu-icon-alignment">
+
+            <img class="dietary-menu-icon" src="./assets/images/df.png" alt="dairy free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/nf.png" alt="nut free" />
+
+          </div>
+
+          <div class="menu-button">
+            <button class="cart-button">
+              <span class="add-to-cart">Add to Cart</span>
+              <span class="added">Added</span>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-box"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-items">
+        <div class="nested">
+          <div class="menu-heading">
+            <h1>meat lovers</h1>
+          </div>
+          <div class="menu-price">
+            <h1>$23.00</h1>
+          </div>
+          <div class="menu-image">
+            <figure>
+              <img src="./assets/images/meatlovers.png" alt="meat lovers" />
+            </figure>
+          </div>
+          <p class="menu-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum accusamus illum vero id odit eligendi
+            adipisci veniam!
+          </p>
+          <div class="dietary-menu-icon-alignment">
+
+            <img class="dietary-menu-icon" src="./assets/images/df.png" alt="dairy free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/nf.png" alt="nut free" />
+
+          </div>
+
+          <div class="menu-button">
+            <button class="cart-button">
+              <span class="add-to-cart">Add to Cart</span>
+              <span class="added">Added</span>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-box"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-items">
+        <div class="nested">
+          <div class="menu-heading">
+            <h1>eastern cuisine</h1>
+          </div>
+          <div class="menu-price">
+            <h1>$23.00</h1>
+          </div>
+          <div class="menu-image">
+            <figure>
+              <img src="./assets/images/eastern_cruisane.png" alt="eastern cuisine" />
+            </figure>
+          </div>
+          <p class="menu-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum accusamus illum vero id odit eligendi
+            adipisci veniam!
+          </p>
+          <div class="dietary-menu-icon-alignment">
+
+            <img class="dietary-menu-icon" src="./assets/images/gf.png" alt="gluten free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/df.png" alt="dairy free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/nf.png" alt="nut free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/v.png" alt="vegetarian" />
+
+            <img class="dietary-menu-icon" src="./assets/images/veg.png" alt="vegan" />
+
+          </div>
+
+          <div class="menu-button">
+            <button class="cart-button">
+              <span class="add-to-cart">Add to Cart</span>
+              <span class="added">Added</span>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-box"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-items">
+        <div class="nested">
+          <div class="menu-heading">
+            <h1>thai cuisine</h1>
+          </div>
+          <div class="menu-price">
+            <h1>$21.00</h1>
+          </div>
+          <div class="menu-image">
+            <figure>
+              <img src="./assets/images/thai_cuisine.png" alt="thai cuisine" />
+            </figure>
+          </div>
+          <p class="menu-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum accusamus illum vero id odit eligendi
+            adipisci veniam!
+          </p>
+          <div class="dietary-menu-icon-alignment">
+
+            <img class="dietary-menu-icon" src="./assets/images/gf.png" alt="gluten free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/df.png" alt="dairy free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/nf.png" alt="nut free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/v.png" alt="vegetarian" />
+
+            <img class="dietary-menu-icon" src="./assets/images/veg.png" alt="vegan" />
+
+          </div>
+
+          <div class="menu-button">
+            <button class="cart-button">
+              <span class="add-to-cart">Add to Cart</span>
+              <span class="added">Added</span>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-box"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-items">
+        <div class="nested">
+          <div class="menu-heading">
+            <h1>grilled vegetables</h1>
+          </div>
+          <div class="menu-price">
+            <h1>$21.00</h1>
+          </div>
+          <div class="menu-image">
+            <figure>
+              <img src="./assets/images/grilled_vege.png" alt="grilled vegetables" />
+            </figure>
+          </div>
+          <p class="menu-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum accusamus illum vero id odit eligendi
+            adipisci veniam!
+          </p>
+          <div class="dietary-menu-icon-alignment">
+
+            <img class="dietary-menu-icon" src="./assets/images/gf.png" alt="gluten free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/df.png" alt="dairy free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/nf.png" alt="nut free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/v.png" alt="vegetarian" />
+
+            <img class="dietary-menu-icon" src="./assets/images/veg.png" alt="vegan" />
+
+          </div>
+
+          <div class="menu-button">
+            <button class="cart-button">
+              <span class="add-to-cart">Add to Cart</span>
+              <span class="added">Added</span>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-box"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="button-wrapper">
+      <div>
+        <a href="./main-menu.html">
+          <button class="main-button">back to menu</button>
+        </a>
+      </div>
+
+      <div>
+        <a href="./cart.html">
+          <button class="main-button">view cart</button>
+        </a>
+      </div>
+    </div>
+
+
+
+
+
+
+  </main>
+
+  <footer>
+    <div>
+      <h4>lyttelton coffee company</h4>
+    </div>
+
+    <div>
+      <h5>29 london street, lyttelton, christchurch 8082</h5>
+    </div>
+
+    <div>
+      <h5 class="no_caps">lyttelton coffee company@xtra.co.nz</h5>
+    </div>
+
+    <div>
+      <ul class="socials">
+        <li>
+          <a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square"></i></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>&copy; 2022 lyttelton coffee company. all rights reserved</h3>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cart</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Open+Sans:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./dist/main.css" />
+  <link rel="icon" href="./assets/images/logocoffee.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <script src="https://kit.fontawesome.com/b68514666a.js" crossorigin="anonymous"></script>
+  <script src="./assets/js/script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-row">
+      <div>
+        <a href="./index.html"><img src="./assets/images/lcc_logosm.jpg" alt="lcc logo" /></a>
+      </div>
+      <div class="cart">
+        <a href="./cart.html"><img class="cart-image" src="./assets/images/cart.png" alt="cart" /></a>
+      </div>
+      <button type="button" class="nav-toggler">
+        <span></span>
+      </button>
+      <nav class="nav">
+        <ul>
+          <li><a href="./index.html">home</a></li>
+          <li><a href="./coffeetea.html">coffee and tea</a></li>
+          <li><a href="./breakfastlunch.html">breakfast and lunch</a></li>
+          <li><a href="./cabinetfood.html">cabinet food</a></li>
+          <li><a href="./colddrinks.html">drinks</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="search-container">
+      <input class="search" type="text" placeholder="Search" />
+    </div>
+  </header>
+
+  <main>
+    <section class="sub-header">
+      <h1>confirm order</h1>
+    </section>
+
+    <section class="order-wrapper">
+      <div class="order-item">
+        <h3>item</h3>
+      </div>
+      <div class="order-qty">
+        <h3>qty</h3>
+      </div>
+      <div class="order-price">
+        <h3>price</h3>
+      </div>
+
+      <div class="order-item-grid">
+        <img src="./assets/images/cappuccinosm.png" alt="cuppuccino" />
+        <div class="order-items-details">
+          <h3>cuppuccino</h3>
+          <input type="radio" name="milk" />Oat Milk<br />
+        </div>
+      </div>
+      <div class="qty-buttons">
+        <button id="sub">-</button>
+        <input type="text" class="qtyBox" readonly="" value="1" />
+        <button id="add">+</button>
+      </div>
+      <div class="confirm-order-price">
+        <h3>$5.00</h3>
+      </div>
+
+      <div class="order-item-grid">
+        <img src="./assets/images/vegan_breakfastsm.png" alt="vegan breakfast" />
+
+        <div class="order-items-details">
+          <h3>vegan breakfast</h3>
+        </div>
+      </div>
+
+      <div class="qty-buttons">
+        <button id="sub1">-</button>
+        <input type="text" class="qtyBox" readonly="" value="1" />
+        <button id="add1">+</button>
+      </div>
+
+      <div class="confirm-order-price">
+        <h3>$21.00</h3>
+      </div>
+
+      <div class="order-item-grid">
+        <img src="./assets/images/choc_muffinsm.png" alt="chocolate muffin" />
+        <div class="order-items-details">
+          <h3>muffin</h3>
+          <input type="radio" name="milk" />Chocolate<br />
+        </div>
+      </div>
+      <div class="qty-buttons">
+        <button id="sub3">-</button>
+        <input type="text" class="qtyBox" readonly="" value="1" />
+        <button id="add3">+</button>
+      </div>
+      <div class="confirm-order-price">
+        <h3>$3.00</h3>
+      </div>
+
+      <div class="order-item-grid">
+        <img src="./assets/images/orangejuicesm.png" alt="organic orange juice" />
+        <div class="order-items-details">
+          <h3>juice</h3>
+          <input type="radio" name="milk" />Organic<br />
+        </div>
+      </div>
+      <div class="qty-buttons">
+        <button id="sub4">-</button>
+        <input type="text" class="qtyBox" readonly="" value="1" />
+        <button id="add4">+</button>
+      </div>
+      <div class="confirm-order-price">
+        <h3>$5.00</h3>
+      </div>
+
+      <div class="order-item">
+        <h3>total</h3>
+      </div>
+      <div class="order-qty">
+        <h3>GST included</h3>
+      </div>
+      <div class="order-price">
+        <h3>$34.00</h3>
+      </div>
+    </section>
+
+    <section class="bottom-header">
+      <h2>you will receive your order within</h2>
+    </section>
+
+    <div class="progress-bar">
+      <img src="./assets/images/progress_bar.png" alt="progress bar" />
+    </div>
+
+    <div class="button-wrapper">
+      <div>
+        <a href="./main-menu.html">
+          <button class="main-button">back to menu</button>
+        </a>
+      </div>
+
+      <div>
+        <a href="./qrcode.html">
+          <button class="main-button">confirm order</button>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div>
+      <h4>lyttelton coffee company</h4>
+    </div>
+
+    <div>
+      <h5>29 london street, lyttelton, christchurch 8082</h5>
+    </div>
+
+    <div>
+      <h5 class="no_caps">lyttelton coffee company@xtra.co.nz</h5>
+    </div>
+
+    <div>
+      <ul class="socials">
+        <li>
+          <a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square"></i></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>&copy; 2022 lyttelton coffee company. all rights reserved</h3>
+    </div>
+  </footer>
+</body>
+
+</html>

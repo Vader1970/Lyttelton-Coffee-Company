@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cabinet food</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Open+Sans:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./dist/main.css" />
+  <link rel="icon" href="./assets/images/logocoffee.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <script src="https://kit.fontawesome.com/b68514666a.js" crossorigin="anonymous"></script>
+  <script src="./assets/js/script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-row">
+      <div>
+        <a href="./index.html"><img src="./assets/images/lcc_logosm.jpg" alt="lcc logo" /></a>
+      </div>
+      <div class="cart">
+        <a href="./cart.html"><img class="cart-image" src="./assets/images/cart.png" alt="cart" /></a>
+      </div>
+      <button type="button" class="nav-toggler">
+        <span></span>
+      </button>
+      <nav class="nav">
+        <ul>
+          <li><a href="./index.html">home</a></li>
+          <li><a href="./coffeetea.html">coffee and tea</a></li>
+          <li><a href="./breakfastlunch.html">breakfast and lunch</a></li>
+          <li>
+            <a href="./cabinetfood.html" class="active">cabinet food</a>
+          </li>
+          <li><a href="./colddrinks.html">drinks</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="search-container">
+      <input class="search" type="text" placeholder="Search" />
+    </div>
+  </header>
+
+  <main>
+    <section class="sub-header">
+      <h1>caninet food</h1>
+      <h2>the secret ingredient in baking is always love!</h2>
+    </section>
+
+    <div class="dietary">
+      <div class="dietary-alignment">
+        <img class="dietary-icon" src="./assets/images/gf.png" alt="gluten free icon" />
+        <p class="dietary-icon-text">gluten free</p>
+      </div>
+
+      <div class="dietary-alignment">
+        <img class="dietary-icon" src="./assets/images/v.png" alt="gluten free icon" />
+        <p class="dietary-icon-text">vegetarian</p>
+      </div>
+
+      <div class="dietary-alignment">
+        <img class="dietary-icon" src="./assets/images/df.png" alt="gluten free icon" />
+        <p class="dietary-icon-text">dairy free</p>
+      </div>
+
+      <div class="dietary-alignment">
+        <img class="dietary-icon" src="./assets/images/veg.png" alt="gluten free icon" />
+        <p class="dietary-icon-text">vegan</p>
+      </div>
+
+      <div class="dietary-alignment">
+        <img class="dietary-icon" src="./assets/images/nf.png" alt="gluten free icon" />
+        <p class="dietary-icon-text">nut free</p>
+      </div>
+    </div>
+
+    <section class="menu-container">
+      <div class="menu-items">
+        <div class="nested">
+          <div class="menu-heading">
+            <h1>muffins</h1>
+          </div>
+          <div class="menu-price">
+            <h1>$3.00</h1>
+          </div>
+          <div class="menu-image">
+            <figure>
+              <img src="./assets/images/choc_muffin.png" alt="muffin" />
+            </figure>
+          </div>
+          <div class="radio-menu">
+            <input type="radio" name="milk" />Chocolate<br />
+            <input type="radio" name="milk" />Boysenberry<br />
+            <input type="radio" name="milk" />Savoury<br />
+          </div>
+          <div class="dietary-menu-icon-alignment">
+            <img class="dietary-menu-icon" src="./assets/images/v.png" alt="vegetarian" />
+
+            <img class="dietary-menu-icon" src="./assets/images/nf.png" alt="nut free" />
+          </div>
+
+          <div class="menu-button">
+            <button class="cart-button">
+              <span class="add-to-cart">Add to Cart</span>
+              <span class="added">Added</span>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-box"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-items">
+        <div class="nested">
+          <div class="menu-heading">
+            <h1>sausage roll</h1>
+          </div>
+          <div class="menu-price">
+            <h1>$2.50</h1>
+          </div>
+          <div class="menu-image">
+            <figure>
+              <img src="./assets/images/susageroll.png" alt="sausage roll" />
+            </figure>
+          </div>
+          <div class="radio-menu">
+            <input type="radio" name="milk" />Pork<br />
+            <input type="radio" name="milk" />Beef<br />
+            <input type="radio" name="milk" />Vegetarian<br />
+          </div>
+          <div class="dietary-menu-icon-alignment">
+            <img class="dietary-menu-icon" src="./assets/images/v.png" alt="vegetarian" />
+
+            <img class="dietary-menu-icon" src="./assets/images/df.png" alt="dairy free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/veg.png" alt="vegan" />
+
+            <img class="dietary-menu-icon" src="./assets/images/nf.png" alt="nut free" />
+          </div>
+
+          <div class="menu-button">
+            <button class="cart-button">
+              <span class="add-to-cart">Add to Cart</span>
+              <span class="added">Added</span>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-box"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-items">
+        <div class="nested">
+          <div class="menu-heading">
+            <h1>pies</h1>
+          </div>
+          <div class="menu-price">
+            <h1>$6.00</h1>
+          </div>
+          <div class="menu-image">
+            <figure>
+              <img src="./assets/images/pie.png" alt="pies" />
+            </figure>
+          </div>
+          <div class="radio-menu">
+            <input type="radio" name="milk" />Chicken<br />
+            <input type="radio" name="milk" />Mince<br />
+            <input type="radio" name="milk" />Vegetarian<br />
+          </div>
+          <div class="dietary-menu-icon-alignment">
+            <img class="dietary-menu-icon" src="./assets/images/gf.png" alt="gluten free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/v.png" alt="vegetarian" />
+
+            <img class="dietary-menu-icon" src="./assets/images/df.png" alt="dairy free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/veg.png" alt="vegan" />
+
+            <img class="dietary-menu-icon" src="./assets/images/nf.png" alt="nut free" />
+          </div>
+
+          <div class="menu-button">
+            <button class="cart-button">
+              <span class="add-to-cart">Add to Cart</span>
+              <span class="added">Added</span>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-box"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-items">
+        <div class="nested">
+          <div class="menu-heading">
+            <h1>cakes</h1>
+          </div>
+          <div class="menu-price">
+            <h1>$5.00</h1>
+          </div>
+          <div class="menu-image">
+            <figure>
+              <img src="./assets/images/cakes.png" alt="cakes" />
+            </figure>
+          </div>
+          <div class="radio-menu">
+            <input type="radio" name="milk" />Chocolate<br />
+            <input type="radio" name="milk" />Carrot<br />
+            <input type="radio" name="milk" />Gluten Free<br />
+          </div>
+          <div class="dietary-menu-icon-alignment">
+            <img class="dietary-menu-icon" src="./assets/images/gf.png" alt="gluten free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/v.png" alt="vegetarian" />
+
+            <img class="dietary-menu-icon" src="./assets/images/df.png" alt="dairy free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/veg.png" alt="vegan" />
+
+            <img class="dietary-menu-icon" src="./assets/images/nf.png" alt="nut free" />
+          </div>
+
+          <div class="menu-button">
+            <button class="cart-button">
+              <span class="add-to-cart">Add to Cart</span>
+              <span class="added">Added</span>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-box"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-items">
+        <div class="nested">
+          <div class="menu-heading">
+            <h1>biscuits</h1>
+          </div>
+          <div class="menu-price">
+            <h1>$2.00</h1>
+          </div>
+          <div class="menu-image">
+            <figure>
+              <img src="./assets/images/biscuit.png" alt="biscuits" />
+            </figure>
+          </div>
+          <div class="radio-menu">
+            <input type="radio" name="milk" />Choc Chip<br />
+            <input type="radio" name="milk" />Anzac<br />
+            <input type="radio" name="milk" />Gluten Free<br />
+          </div>
+          <div class="dietary-menu-icon-alignment">
+            <img class="dietary-menu-icon" src="./assets/images/gf.png" alt="gluten free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/v.png" alt="vegetarian" />
+
+            <img class="dietary-menu-icon" src="./assets/images/df.png" alt="dairy free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/veg.png" alt="vegan" />
+
+            <img class="dietary-menu-icon" src="./assets/images/nf.png" alt="nut free" />
+          </div>
+
+          <div class="menu-button">
+            <button class="cart-button">
+              <span class="add-to-cart">Add to Cart</span>
+              <span class="added">Added</span>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-box"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-items">
+        <div class="nested">
+          <div class="menu-heading">
+            <h1>cheese cake</h1>
+          </div>
+          <div class="menu-price">
+            <h1>$5.00</h1>
+          </div>
+          <div class="menu-image">
+            <figure>
+              <img src="./assets/images/cheesecake.png" alt="cheese cake" />
+            </figure>
+          </div>
+          <div class="radio-menu">
+            <input type="radio" name="milk" />Mango<br />
+            <input type="radio" name="milk" />Strawberry<br />
+            <input type="radio" name="milk" />Gluten Free<br />
+          </div>
+          <div class="dietary-menu-icon-alignment">
+            <img class="dietary-menu-icon" src="./assets/images/gf.png" alt="gluten free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/v.png" alt="vegetarian" />
+
+            <img class="dietary-menu-icon" src="./assets/images/nf.png" alt="nut free" />
+          </div>
+
+          <div class="menu-button">
+            <button class="cart-button">
+              <span class="add-to-cart">Add to Cart</span>
+              <span class="added">Added</span>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-box"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-items">
+        <div class="nested">
+          <div class="menu-heading">
+            <h1>quiche</h1>
+          </div>
+          <div class="menu-price">
+            <h1>$5.00</h1>
+          </div>
+          <div class="menu-image">
+            <figure>
+              <img src="./assets/images/quiche.png" alt="quice" />
+            </figure>
+          </div>
+          <div class="radio-menu">
+            <input type="radio" name="milk" />Bacon & Egg<br />
+            <input type="radio" name="milk" />Vegetable<br />
+            <input type="radio" name="milk" />Gluten Free<br />
+          </div>
+          <div class="dietary-menu-icon-alignment">
+            <img class="dietary-menu-icon" src="./assets/images/gf.png" alt="gluten free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/v.png" alt="vegetarian" />
+
+            <img class="dietary-menu-icon" src="./assets/images/nf.png" alt="nut free" />
+          </div>
+
+          <div class="menu-button">
+            <button class="cart-button">
+              <span class="add-to-cart">Add to Cart</span>
+              <span class="added">Added</span>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-box"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-items">
+        <div class="nested">
+          <div class="menu-heading">
+            <h1>scone</h1>
+          </div>
+          <div class="menu-price">
+            <h1>$3.00</h1>
+          </div>
+          <div class="menu-image">
+            <figure>
+              <img src="./assets/images/scone.png" alt="scone" />
+            </figure>
+          </div>
+          <div class="radio-menu">
+            <input type="radio" name="milk" />Plain<br />
+            <input type="radio" name="milk" />Cheese<br />
+            <input type="radio" name="milk" />Savoury<br />
+          </div>
+          <div class="dietary-menu-icon-alignment">
+            <img class="dietary-menu-icon" src="./assets/images/gf.png" alt="gluten free" />
+
+            <img class="dietary-menu-icon" src="./assets/images/v.png" alt="vegetarian" />
+
+            <img class="dietary-menu-icon" src="./assets/images/nf.png" alt="nut free" />
+          </div>
+
+          <div class="menu-button">
+            <button class="cart-button">
+              <span class="add-to-cart">Add to Cart</span>
+              <span class="added">Added</span>
+              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-box"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="button-wrapper">
+      <div>
+        <a href="./main-menu.html">
+          <button class="main-button">back to menu</button>
+        </a>
+      </div>
+
+      <div>
+        <a href="./cart.html">
+          <button class="main-button">view cart</button>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div>
+      <h4>lyttelton coffee company</h4>
+    </div>
+
+    <div>
+      <h5>29 london street, lyttelton, christchurch 8082</h5>
+    </div>
+
+    <div>
+      <h5 class="no_caps">lyttelton coffee company@xtra.co.nz</h5>
+    </div>
+
+    <div>
+      <ul class="socials">
+        <li>
+          <a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square"></i></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>&copy; 2022 lyttelton coffee company. all rights reserved</h3>
+    </div>
+  </footer>
+</body>
+
+</html>
