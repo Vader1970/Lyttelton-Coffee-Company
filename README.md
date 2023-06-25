@@ -55,11 +55,11 @@ Well Done on your submission - All the requirements were met.
 
 The Following were outstanding: 
 
-Excellent detail on capturing the business requirements that acted as your foundation 
-Research and insights were excellent 
-Mind map and journey is outstanding - Capturing your end users activity and requirements 
-Design Process is excellent 
-Code is outstanding very logical, excellent structure and simple as well 
+Excellent detail on capturing the business requirements that acted as your foundation. 
+Research and insights were excellent. 
+Mind map and journey is outstanding - Capturing your end users activity and requirements. 
+Design Process is excellent. 
+Code is outstanding very logical, excellent structure and simple as well. 
 Look Forward to marking your next assessment, 
 
 
